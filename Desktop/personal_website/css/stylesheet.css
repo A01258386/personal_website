@@ -1,9 +1,6 @@
 body { 
     background-color: #EDDDD0;
     min-height: 99vh;
-    display: flex;
-    flex-direction: column;
-}
 
 a,li{
     padding:20px;
