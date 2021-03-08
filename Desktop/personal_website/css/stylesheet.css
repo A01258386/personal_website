@@ -3,13 +3,12 @@ body {
 }
 
 h1 {
-    color :navy ;
     margin-left : 20px;
 }
 li{
     padding:20px;
 }
-.navigation{
+.headerandnav{
     background-color: lightblue;
     text-align: center;
 }
