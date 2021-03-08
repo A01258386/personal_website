@@ -1,5 +1,5 @@
 body { 
-	background-color: beige;
+	background-color: #E5E5DC;
 }
 
 h1 {
@@ -17,7 +17,7 @@ a,li{
 .headerandnav{
     grid-column: 1 / 3;
     grid-row: 1 / 2;
-    background-color: lightblue;
+    background-color: #A6CAD4;
     text-align: center;
 }
 
@@ -36,12 +36,6 @@ main{
     grid-row: 2 / 3;
 }
 
-/* .menulist{
-    display: inline-flex;
-    list-style-type: none;
-    justify-items: center;  
-} */
-
 .fontfamily {
     font-family: 'Montserrat', sans-serif;
 }
@@ -55,7 +49,7 @@ main{
     }
 
 footer{
-    background-color:lightblue ;
+    background-color:#A6CAD4 ;
     display: flexbox;
     text-align: center;
     grid-column: 1 / 3;
