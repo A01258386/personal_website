@@ -1,18 +1,30 @@
 body { 
-	background-color: #e9e8e6;
+	background-color: beige;
 }
 
 h1 {
     color :navy ;
     margin-left : 20px;
 }
+li{
+    padding:20px;
+}
 .navigation{
     background-color: lightblue;
-}
-
-.align{
     text-align: center;
 }
+.menulist{
+    display: inline-flex;
+    list-style-type: none;
+    justify-items: center;
+}
+
 .fontfamily {
     font-family: 'Montserrat', sans-serif;
+}
+footer{
+    background-color:lightblue ;
+    display: flexbox;
+    text-align: center;
+
 }
