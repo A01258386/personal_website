@@ -2,6 +2,8 @@ body {
     background-color: #EDDDD0;
     min-height: 99vh;
 
+} 
+
 a,li{
     padding:20px;
     list-style-type: none;
@@ -17,13 +19,12 @@ a,li{
     display: grid;
     width:100%;
     height: 100vh;
-    grid-template-rows: 200px 600px 80px;
+   grid-template-rows: 3fr 9fr 1fr; /*  200px 600px 80px */
     grid-template-columns:2fr 1fr ;
     }
 
 
 .headerandnav{
-
     grid-column: 1 / 3;
     grid-row: 1 / 2;
     background-color: #A6CAD4;
