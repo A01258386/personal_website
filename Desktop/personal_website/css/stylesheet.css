@@ -67,9 +67,13 @@ footer{
     }}
  */
 @media screen and (min-width: 601px) {
-    ul {
+    li  {
     display:grid;
-    grid-template-rows:6;
-    grid-template-columns:2;
+    grid-template-rows:6fr;
+    grid-template-columns:1fr 2fr;
+       
+    }
+    #pexplanation1,#pexplanation2,#pexplanation3{
+        justify-content: right;
     }
 }
