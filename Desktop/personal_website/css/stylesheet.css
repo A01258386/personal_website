@@ -4,7 +4,7 @@ body {
 
 } 
 
-a,li{
+a,ul{
     padding:20px;
     list-style-type: none;
     text-decoration: none;
@@ -52,18 +52,21 @@ footer{
     height: 20px;
 }
 
-@media screen and (max-width: 600px) {
+
+
+#flexcourses  {
+    display: block;
+}
+#flexcourses li{
+    border-bottom:1px solid black;
+}
+
+/* @media screen and (min-width: 600px) {
     body {
-        background-color: blue;
+        ;
     }}
 
-@media screen and (min-width: 400px) {
+@media screen and (max-width: 599px) {
     body {
-        background-color: red;
-    }}
-
-@media screen and (min-width: 700px) {
-    body {
-            background-color:green;
-    }}
-    
+            ;
+    }} */
