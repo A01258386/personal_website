@@ -60,6 +60,10 @@ footer{
 #flexcourses li{
     border-bottom:1px solid black;
 }
+#flexcourses ul,
+#flexcourses a{
+    padding:0;
+}
 
 /* @media screen and (min-width: 600px) {
     body {
