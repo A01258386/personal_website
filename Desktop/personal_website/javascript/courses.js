@@ -5,10 +5,13 @@ do{
 } while(!isNaN(user) || user.length != 4); 
 user= prompt("your 4 digit number");
 
-for(let code of courseList)
+for(let course of courseList)
 {
-    if(stu.program === "CIT" && stu.GPA > 3)
+    if(course.code === user )
     {
-        counter ++;
+        console.log("Yes I am taking the course: ACIT ${course.code}"+ '-' + "${course.name}")
+    }
+    else {
+        courseList.push({code:user,name:null,})
     }
 }
