@@ -14,4 +14,5 @@ for(let course of courseList)
     else {
         courseList.push({code:user,name:null,})
     }
+    console.log('Successful')
 }
