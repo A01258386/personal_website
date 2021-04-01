@@ -1,8 +1,13 @@
 const courseList= [{ code: "1620" ,  name: " Web Fundamental Technologies"},{ code: "1515" ,  name: " Scripting for IT"},{ code: "1630" ,  name: "Database Systems"},]
-let user;
+var user;
 do{
-   user= prompt("your 4 digit number");
-} while(!isNaN(user) || user.length != 4); 
+   user= prompt("your 4 digit number").toString;
+   for (let code of courseList ){
+   if (courseList.code ==user){
+       break
+   }
+}
+} while(!isNaN(user) || user.toString().length !== 4); 
 user= prompt("your 4 digit number");
 
 for(let course of courseList)
